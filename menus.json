@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Kolkovna",
+    "date": "2024-04-15T00:00:00Z",
+    "menu_items": [
+      {
+        "description": "Pórková polévka s bramborami a zakysanou smetanou ",
+        "price": 49
+      },
+      {
+        "description": "Míchaný salát s italskou šunkou, olivami a mozarellou, pečivo ",
+        "price": 179
+      },
+      {
+        "description": "Smažený vepřový řízek s bramborovým salátem 150 g l1,3,7,9,10,12l",
+        "price": 209
+      },
+      {
+        "description": "Kuřecí kari s cizrnou a rajčaty, jasmínová rýže ",
+        "price": 189
+      },
+      {
+        "description": "Koláč jablečný s mřížkou 1 porce ",
+        "price": 79
+      }
+    ]
+  },
+  {
+    "name": "Merkur",
+    "date": "2024-12-04T00:00:00Z",
+    "menu_items": [
+      {
+        "description": "Jarní zeleninová",
+        "price": 40
+      },
+      {
+        "description": "Slepice na paprice s rýží",
+        "price": 139
+      },
+      {
+        "description": "Smažený sýr s vařenými bramborami a tatarskou omáčkou",
+        "price": 139
+      },
+      {
+        "description": "Mexická tortilla se sýrem",
+        "price": 139
+      },
+      {
+        "description": "Pečené vepřové žebra na pivu s beraními rohy, okurkou hořčicí a křenema rozpečenou bagetkou",
+        "price": 149
+      },
+      {
+        "description": "Hovězí guláš s houskovými knedlíky",
+        "price": 159
+      },
+      {
+        "description": "Grilovaná vykostěná vepřová kotleta se žampiony zapečená sýrem čedar podávaná s opečenými bramborami",
+        "price": 159
+      }
+    ]
+  }
+]
