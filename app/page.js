@@ -35,10 +35,8 @@ export function RestaurantMenu() {
             {restaurant.menu_items.map((item, itemIndex) => (
               <div className="grid grid-cols-2 items-center justify-between" key={itemIndex}>
                 <div className="col-span-2 text-sm font-medium">
-                  <span>{item.description}</span>
-                  {item.description_en && (
-                    <span className="block text-gray-500 dark:text-gray-400">{item.description_en}</span>
-                  )}
+                  {item.description}<br/>
+                  {item.description_en}
                 </div>
                 <div className="text-sm font-medium">{item.price},-</div>
               </div>
