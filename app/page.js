@@ -34,7 +34,12 @@ export function RestaurantMenu() {
             <p className="text-sm text-gray-500 dark:text-gray-400">{new Date(restaurant.date).toLocaleDateString('cs-CZ', { day: 'numeric', month: 'numeric', year: 'numeric' })}</p>
             {restaurant.menu_items.map((item, itemIndex) => (
               <div className="grid grid-cols-2 items-center justify-between" key={itemIndex}>
-                <div className="text-sm font-medium">{item.description}</div>
+                <div className="col-span-2 text-sm font-medium">
+                  <span>{item.description}</span>
+                  {item.description_en && (
+                    <span className="block text-gray-500 dark:text-gray-400">{item.description_en}</span>
+                  )}
+                </div>
                 <div className="text-sm font-medium">{item.price},-</div>
               </div>
             ))}
